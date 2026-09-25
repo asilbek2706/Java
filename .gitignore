@@ -30,3 +30,5 @@ bin/
 .DS_Store
 
 Learning-java.iml
+.idea
+mad-libs-game/mad-libs-game.iml

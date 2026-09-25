@@ -50,7 +50,7 @@ public class Main {
         scanner.close();*/
 
         // Calculate area of a rectangle
-        double width = 0;
+       /* double width = 0;
         double height = 0;
         double area = 0;
 
@@ -65,6 +65,26 @@ public class Main {
         area = width * height;
 
         System.out.println("The rectanle are is: " + area + "cm²");
+
+        scanner.close();*/
+
+        // Calculate perimetr of rectangle
+
+        double width = 0;
+        double height = 0;
+        double perimeter = 0;
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter width: ");
+        width = scanner.nextDouble();
+
+        System.out.print("Enter height: ");
+        height = scanner.nextDouble();
+
+        perimeter = 2 * (width + height);
+
+        System.out.println("The rectangle peremeter is: " + perimeter);
 
         scanner.close();
 
