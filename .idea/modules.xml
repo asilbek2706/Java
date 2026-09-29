@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/arithmetics/arithmetics.iml" filepath="$PROJECT_DIR$/arithmetics/arithmetics.iml" />
       <module fileurl="file://$PROJECT_DIR$/mad-libs-game/mad-libs-game.iml" filepath="$PROJECT_DIR$/mad-libs-game/mad-libs-game.iml" />
       <module fileurl="file://$PROJECT_DIR$/math-class/math-class.iml" filepath="$PROJECT_DIR$/math-class/math-class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/printfStatement/printfStatement.iml" filepath="$PROJECT_DIR$/printfStatement/printfStatement.iml" />
       <module fileurl="file://$PROJECT_DIR$/randomNumber/randomNumber.iml" filepath="$PROJECT_DIR$/randomNumber/randomNumber.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopping-cart/shopping-cart.iml" filepath="$PROJECT_DIR$/shopping-cart/shopping-cart.iml" />
     </modules>
