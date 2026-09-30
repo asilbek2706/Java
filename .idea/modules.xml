@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Learning-java.iml" filepath="$PROJECT_DIR$/Learning-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/arithmetics/arithmetics.iml" filepath="$PROJECT_DIR$/arithmetics/arithmetics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/compount-interest/compount-interest.iml" filepath="$PROJECT_DIR$/compount-interest/compount-interest.iml" />
       <module fileurl="file://$PROJECT_DIR$/mad-libs-game/mad-libs-game.iml" filepath="$PROJECT_DIR$/mad-libs-game/mad-libs-game.iml" />
       <module fileurl="file://$PROJECT_DIR$/math-class/math-class.iml" filepath="$PROJECT_DIR$/math-class/math-class.iml" />
       <module fileurl="file://$PROJECT_DIR$/printfStatement/printfStatement.iml" filepath="$PROJECT_DIR$/printfStatement/printfStatement.iml" />
