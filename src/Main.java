@@ -2,29 +2,33 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // if statement
+        // nested-if statement
 
-        Scanner scanner = new Scanner(System.in);
+        boolean isStudent = false;
+        boolean isSenior = true;
+        double price = 9.99;
 
-        String name;
-        int age;
+        if (isStudent) {
+            if (isSenior) {
+                System.out.println("You get a senior discount of 20%");
+                System.out.println("You get a student discount of 10%");
+                price *= 0.8;
+            } else {
+                System.out.println("You get a student discount of 10%");
+                price *= 0.9;
+            }
 
-        System.out.print("Enter your name: ");
-        name = scanner.nextLine();
+        } else {
+            if (isSenior) {
+                System.out.println("You get a senior discount of 20%");
+                price *= 0.8;
 
-        System.out.print("Enter your age: ");
-        age = scanner.nextInt();
+            } else {
+                price *= 1;
+            }
+        }
 
-        //Name
-        if(name.isEmpty()) System.out.println("You didn't enter your name!");
-        else System.out.println("Hello " + name + "!");
-        // Age
-        if (age >= 65) System.out.println("You are a senior.");
-        else if (age >= 18) System.out.println("You are an adult.");
-        else if (age < 0) System.out.println("You have not born yet.");
-        else if (age == 0) System.out.println("You are a baby.");
-        else System.out.println("You are a child.");
+        System.out.printf("The price of a ticket is: $%.2f", price);
 
-        scanner.close();
     }
 }
