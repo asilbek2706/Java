@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/printfStatement/printfStatement.iml" filepath="$PROJECT_DIR$/printfStatement/printfStatement.iml" />
       <module fileurl="file://$PROJECT_DIR$/randomNumber/randomNumber.iml" filepath="$PROJECT_DIR$/randomNumber/randomNumber.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopping-cart/shopping-cart.iml" filepath="$PROJECT_DIR$/shopping-cart/shopping-cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stringMethod/stringMethod.iml" filepath="$PROJECT_DIR$/stringMethod/stringMethod.iml" />
     </modules>
   </component>
 </project>
