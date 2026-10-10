@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Learning-java.iml" filepath="$PROJECT_DIR$/Learning-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RamdomNumber/RamdomNumber.iml" filepath="$PROJECT_DIR$/RamdomNumber/RamdomNumber.iml" />
       <module fileurl="file://$PROJECT_DIR$/arithmetics/arithmetics.iml" filepath="$PROJECT_DIR$/arithmetics/arithmetics.iml" />
       <module fileurl="file://$PROJECT_DIR$/compount-interest/compount-interest.iml" filepath="$PROJECT_DIR$/compount-interest/compount-interest.iml" />
       <module fileurl="file://$PROJECT_DIR$/enhancedSwitch/enhancedSwitch.iml" filepath="$PROJECT_DIR$/enhancedSwitch/enhancedSwitch.iml" />
