@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Learning-java.iml" filepath="$PROJECT_DIR$/Learning-java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/RamdomNumber/RamdomNumber.iml" filepath="$PROJECT_DIR$/RamdomNumber/RamdomNumber.iml" />
-      <module fileurl="file://$PROJECT_DIR$/arithmetics/arithmetics.iml" filepath="$PROJECT_DIR$/arithmetics/arithmetics.iml" />
-      <module fileurl="file://$PROJECT_DIR$/compount-interest/compount-interest.iml" filepath="$PROJECT_DIR$/compount-interest/compount-interest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/enhancedSwitch/enhancedSwitch.iml" filepath="$PROJECT_DIR$/enhancedSwitch/enhancedSwitch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mad-libs-game/mad-libs-game.iml" filepath="$PROJECT_DIR$/mad-libs-game/mad-libs-game.iml" />
-      <module fileurl="file://$PROJECT_DIR$/math-class/math-class.iml" filepath="$PROJECT_DIR$/math-class/math-class.iml" />
-      <module fileurl="file://$PROJECT_DIR$/printfStatement/printfStatement.iml" filepath="$PROJECT_DIR$/printfStatement/printfStatement.iml" />
-      <module fileurl="file://$PROJECT_DIR$/randomNumber/randomNumber.iml" filepath="$PROJECT_DIR$/randomNumber/randomNumber.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shopping-cart/shopping-cart.iml" filepath="$PROJECT_DIR$/shopping-cart/shopping-cart.iml" />
-      <module fileurl="file://$PROJECT_DIR$/stringMethod/stringMethod.iml" filepath="$PROJECT_DIR$/stringMethod/stringMethod.iml" />
-      <module fileurl="file://$PROJECT_DIR$/subStringMethod/subStringMethod.iml" filepath="$PROJECT_DIR$/subStringMethod/subStringMethod.iml" />
-      <module fileurl="file://$PROJECT_DIR$/temperatureConverter/temperatureConverter.iml" filepath="$PROJECT_DIR$/temperatureConverter/temperatureConverter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ternaryOperator/ternaryOperator.iml" filepath="$PROJECT_DIR$/ternaryOperator/ternaryOperator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/weight-converter/weight-converter.iml" filepath="$PROJECT_DIR$/weight-converter/weight-converter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Java-beginning/test/test.iml" filepath="$PROJECT_DIR$/Java/Java-beginning/test/test.iml" />
     </modules>
   </component>
 </project>
