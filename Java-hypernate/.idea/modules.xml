@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Java-hypernate.iml" filepath="$PROJECT_DIR$/.idea/Java-hypernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/kara-jadval/kara-jadval.iml" filepath="$PROJECT_DIR$/kara-jadval/kara-jadval.iml" />
+      <module fileurl="file://$PROJECT_DIR$/misollar/misollar.iml" filepath="$PROJECT_DIR$/misollar/misollar.iml" />
     </modules>
   </component>
 </project>
