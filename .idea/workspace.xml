@@ -4,58 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d11d039-5755-4570-913c-ecd59b375ca0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning-java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RamdomNumber/RamdomNumber.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RamdomNumber/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/arithmetics/arithmetics.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/arithmetics/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compount-interest/compount-interest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compount-interest/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/enhancedSwitch/enhancedSwitch.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/enhancedSwitch/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mad-libs-game/mad-libs-game.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mad-libs-game/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/math-class/math-class.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/math-class/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/printfStatement/printfStatement.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/printfStatement/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/randomNumber/randomNumber.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/randomNumber/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping-cart/shopping-cart.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping-cart/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/requests.http" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/com/example/springboot/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/com/example/springboot/SoftwareEngineer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/com/example/springboot/SoftwareEngineerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/com/example/springboot/SoftwareEngineerRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/com/example/springboot/SoftwareEngineerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot/src/test/java/com/example/springboot/ApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stringMethod/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stringMethod/stringMethod.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/subStringMethod/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/subStringMethod/subStringMethod.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temperatureConverter/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temperatureConverter/temperatureConverter.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ternaryOperator/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ternaryOperator/ternaryOperator.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weight-converter/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weight-converter/weight-converter.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="3d11d039-5755-4570-913c-ecd59b375ca0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,61 +19,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0001812162561843" />
-      <entry key="S2" value="1.116447612439181" />
-      <entry key="S5" value="1.5122801404076096" />
-      <entry key="S10" value="2.3999226326462626" />
-      <entry key="S30" value="6.523537095700502" />
-      <entry key="S60" value="10.060229600630622" />
-      <entry key="M2" value="12.925976863605907" />
-      <entry key="M5" value="15.19267353361276" />
-      <entry key="M10" value="16.06342213399136" />
-      <entry key="M15" value="16.36803234888321" />
-      <entry key="M30" value="16.680155448443514" />
-      <entry key="H1" value="16.83909926357125" />
-      <entry key="H2" value="16.919303335033476" />
-      <entry key="H4" value="16.959589881757907" />
-      <entry key="D1" value="16.993256380916023" />
-      <entry key="W1" value="16.99903641501273" />
+      <entry key="MS100" value="1.0034400206126999" />
+      <entry key="MS500" value="1.9349952020522685" />
+      <entry key="S2" value="3.789095617531188" />
+      <entry key="S5" value="5.30866613188509" />
+      <entry key="S10" value="8.461607302188554" />
+      <entry key="S30" value="21.748416209674076" />
+      <entry key="S60" value="34.83792038985192" />
+      <entry key="M2" value="47.85773797825544" />
+      <entry key="M5" value="62.00459965234852" />
+      <entry key="M10" value="69.0352950085997" />
+      <entry key="M15" value="71.77564607209452" />
+      <entry key="M30" value="74.7543026927689" />
+      <entry key="H1" value="76.34183251222873" />
+      <entry key="H2" value="77.161830814894" />
+      <entry key="H4" value="77.57861120325423" />
+      <entry key="D1" value="77.92944567603823" />
+      <entry key="W1" value="77.98991286695913" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="4.1473477744710664E-53" />
-      <entry key="MS500" value="3.33853400120026E-11" />
-      <entry key="S2" value="0.0025694628619308962" />
-      <entry key="S5" value="0.14315818284699217" />
-      <entry key="S10" value="0.7662760444613261" />
-      <entry key="S30" value="3.729693739281235" />
-      <entry key="S60" value="6.415017804868033" />
-      <entry key="M2" value="8.679102864116846" />
-      <entry key="M5" value="10.51387701083668" />
-      <entry key="M10" value="11.227501608296441" />
-      <entry key="M15" value="11.478202883573296" />
-      <entry key="M30" value="11.735635681354738" />
-      <entry key="H1" value="11.866938657790106" />
-      <entry key="H2" value="11.933247918698832" />
-      <entry key="H4" value="11.966568403623146" />
-      <entry key="D1" value="11.994420333888476" />
-      <entry key="W1" value="11.999202715226119" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.8446541957353663E-176" />
+      <entry key="S2" value="1.2457535545294972E-44" />
+      <entry key="S5" value="4.266306896181902E-18" />
+      <entry key="S10" value="4.183147773988392E-9" />
+      <entry key="S30" value="0.00656718359146663" />
+      <entry key="S60" value="0.26918500210353696" />
+      <entry key="M2" value="1.7778754465443922" />
+      <entry key="M5" value="5.57613771428765" />
+      <entry key="M10" value="8.176518528937686" />
+      <entry key="M15" value="9.291035006607371" />
+      <entry key="M30" value="10.558487708043378" />
+      <entry key="H1" value="11.256056057599412" />
+      <entry key="H2" value="11.622041939991629" />
+      <entry key="H4" value="11.809500126526606" />
+      <entry key="D1" value="11.968036696157267" />
+      <entry key="W1" value="11.995428561891705" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="8.384428090212435E-4" />
-      <entry key="MS500" value="0.24249047856558464" />
-      <entry key="S2" value="0.7095048100308639" />
-      <entry key="S5" value="1.2023972211104588" />
-      <entry key="S10" value="2.7219239309424648" />
-      <entry key="S30" value="9.927628584932174" />
-      <entry key="S60" value="16.252549823732966" />
-      <entry key="M2" value="21.470864839153663" />
-      <entry key="M5" value="25.64581564488603" />
-      <entry key="M10" value="27.25921765933237" />
-      <entry key="M15" value="27.824786770080536" />
-      <entry key="M30" value="28.40490780583247" />
-      <entry key="H1" value="28.700555804221857" />
-      <entry key="H2" value="28.849799994768087" />
-      <entry key="H4" value="28.924780094888472" />
-      <entry key="D1" value="28.987446659762966" />
-      <entry key="W1" value="28.998206256487066" />
+      <entry key="MS100" value="0.910688670041997" />
+      <entry key="MS500" value="1.8977940098683819" />
+      <entry key="S2" value="3.7702621631095785" />
+      <entry key="S5" value="5.29908339102635" />
+      <entry key="S10" value="8.455332654500308" />
+      <entry key="S30" value="21.749226721017813" />
+      <entry key="S60" value="35.09338540300615" />
+      <entry key="M2" value="49.605132804881684" />
+      <entry key="M5" value="67.54706579650343" />
+      <entry key="M10" value="77.18794116904583" />
+      <entry key="M15" value="81.04878595478334" />
+      <entry key="M30" value="85.30272562205198" />
+      <entry key="H1" value="87.59255050044239" />
+      <entry key="H2" value="88.78112376122155" />
+      <entry key="H4" value="89.38671638481696" />
+      <entry key="D1" value="89.8972470016761" />
+      <entry key="W1" value="89.98530773344528" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
