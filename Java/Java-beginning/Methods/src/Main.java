@@ -1,21 +1,33 @@
-import java.util.Scanner;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
-        int number;
-        System.out.print("Enter a number: ");
-        number = scanner.nextInt();
+        int[] number = {10, 2, 3, 4, 5, 6};
 
-        String num = minusPlus(number);
-        System.out.print(num);
+        String str = Arrays.toString(number);
 
-        scanner.close();
+        System.out.println(str);
     }
+//        String[] names = {"Asilbek", "Ali", "Azizbek", "Shoxjahon"};
+//
+//
+//        print(number);
 
-    public static String minusPlus(int number) {
-        if (number >= 0) return "Musbat";
-        else return "Manfiy";
-    }
+//        print(names);
+
+
+
+//    public static void print(int[] number){
+//        for (int num: number){
+//            System.out.println(num);
+//        }
+//
+//    }
+
+    /*public static void print(String[] names){
+        for (String name: names){
+            System.out.println(name);
+        }
+    }*/
 }
