@@ -5,10 +5,16 @@ public class Main {
         /*int age = getAge();
         System.out.printf("Your age is %d", age);*/
 
-        Object[] userDetail = getUserDetail();
+       /* Object[] userDetail = getUserDetail();
         String name = (String) userDetail[0];
         String surname = (String) userDetail[1];
-        int age = (int) userDetail[2];
+        int age = (int) userDetail[2];*/
+
+        User userDetails = getUser();
+
+        String name = userDetails.name;
+        String surname = userDetails.surname;
+        int age = userDetails.age;
 
         System.out.printf("Your name is %s\n", name);
         System.out.printf("Your surname is %s\n", surname);
@@ -53,6 +59,33 @@ public class Main {
         obj[2] = age;
 
         return obj;
+    }
+
+    public static User getUser() {
+        Scanner scanner = new Scanner(System.in);
+
+        int age;
+        String name;
+        String surname;
+
+        System.out.print("Enter your name: ");
+        name = scanner.nextLine();
+
+        System.out.print("Enter your surname: ");
+        surname = scanner.nextLine();
+
+        System.out.print("Enter your age: ");
+        age = scanner.nextInt();
+
+        scanner.close();
+
+        User user = new User();
+
+        user.name = name;
+        user.surname = surname;
+        user.age = age;
+
+        return user;
     }
 
 }
