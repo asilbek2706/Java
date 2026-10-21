@@ -10,7 +10,7 @@ public class Main {
         String surname = (String) userDetail[1];
         int age = (int) userDetail[2];
 
-        System.out.printf("Ypur name is %s\n", name);
+        System.out.printf("Your name is %s\n", name);
         System.out.printf("Your surname is %s\n", surname);
         System.out.printf("Your age is %d\n", age);
     }
@@ -44,6 +44,8 @@ public class Main {
         age = scanner.nextInt();
 
         scanner.close();
+
+//        return new Object[]{name, surname, age};
 
         Object[] obj = new Object[3];
         obj[0] = name;
