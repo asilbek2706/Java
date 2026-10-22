@@ -12,7 +12,8 @@ public class Main {
 
             switch (n) {
                 case 1:
-                    //
+                    Contact contact = addContact();
+                    System.out.println(contact.name + " " + contact.surname + " " + contact.phone);
                     break;
                 case 2:
                     //
@@ -52,8 +53,27 @@ public class Main {
         System.out.print("Choose Menu: ");
         int num = scanner.nextInt();
 
-        scanner.close();
         return num;
 
+    }
+
+    public static Contact addContact(){
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter name: ");
+        String name = scanner.next();
+
+        System.out.print("Enter surname: ");
+        String surname = scanner.next();
+
+        System.out.print("Enter phone number: ");
+        String phone = scanner.next();
+
+        Contact contact = new Contact();
+        contact.name = name;
+        contact.surname = surname;
+        contact.phone = phone;
+
+        return contact;
     }
 }
