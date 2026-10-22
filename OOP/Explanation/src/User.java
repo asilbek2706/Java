@@ -4,16 +4,9 @@ public class User {
     String surname;
     int age;
 
-    public void printDetail() {
-        System.out.println(name + " " + surname + " " + " " + age);
+    public void print(){
+        System.out.println("Mazgi!");
     }
 
-    public String toString() {
-        return name + " " + surname + " " + age;
-    }
-
-    public String nameToUpper(){
-        return name.toUpperCase();
-    }
 
 }
