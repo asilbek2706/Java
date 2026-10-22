@@ -3,6 +3,7 @@
   <component name="PrintToLogpointModuleInspectionState">
     <option name="disabledModuleNames">
       <set>
+        <option value="ContactManager" />
         <option value="Explanation" />
         <option value="OOP" />
       </set>
