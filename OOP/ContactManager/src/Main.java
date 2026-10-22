@@ -4,6 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Contact[] contactArr = new Contact[10];
+
+        int currentIndex = 0;
+
         boolean b = true;
 
         while (b) {
@@ -13,10 +17,19 @@ public class Main {
             switch (n) {
                 case 1:
                     Contact contact = addContact();
-                    System.out.println(contact.name + " " + contact.surname + " " + contact.phone);
+                    if (isValidContact(contact)) {
+                        contactArr[currentIndex] = contact;
+                        currentIndex++;
+                        System.out.println("Contact added.");
+                    }
                     break;
                 case 2:
-                    //
+                    for (Contact c : contactArr) {
+                        if (c != null) {
+                            System.out.println("Name   |   Surname |   Phone   ");
+                            System.out.println(c.name + " | " + c.surname + " | " + c.phone);
+                        }
+                    }
                     break;
                 case 3:
                     //
@@ -57,7 +70,7 @@ public class Main {
 
     }
 
-    public static Contact addContact(){
+    public static Contact addContact() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter name: ");
@@ -75,5 +88,35 @@ public class Main {
         contact.phone = phone;
 
         return contact;
+    }
+
+    public static boolean isValidContact(Contact contact) {
+
+        if (contact.name == null || contact.name.trim().length() < 3) {
+            System.out.println("Name is wrong");
+            return false;
+        }
+
+        if (contact.surname == null || contact.surname.trim().length() < 3) {
+            System.out.println("Surname is wrong");
+            return false;
+        }
+
+        if (contact.phone == null || contact.phone.trim().length() != 12 || !contact.phone.startsWith("998")) {
+            System.out.println("Enter phone like this: 998505343434");
+            return false;
+        }
+
+        char[] phoneArr = contact.phone.toCharArray();
+
+        for (char c : phoneArr) {
+            //if (!Character.isDigit(c))
+
+            if (c < '0' || c > '9') {
+                System.out.println("The phone must include numbers!!!");
+                return false;
+            }
+        }
+        return true;
     }
 }
