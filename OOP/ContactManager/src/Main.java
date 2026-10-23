@@ -2,14 +2,11 @@ import java.util.Scanner;
 
 public class Main {
 
+    static Contact[] contactArr = new Contact[10];
+    static int currentIndex = 0;
+
     public static void main(String[] args) {
-
-        Contact[] contactArr = new Contact[10];
-
-        int currentIndex = 0;
-
         boolean b = true;
-
         while (b) {
             menu();
             int n = getMenuNumber();
@@ -17,19 +14,10 @@ public class Main {
             switch (n) {
                 case 1:
                     Contact contact = addContact();
-                    if (isValidContact(contact)) {
-                        contactArr[currentIndex] = contact;
-                        currentIndex++;
-                        System.out.println("Contact added.");
-                    }
+                    addToArray(contact);
                     break;
                 case 2:
-                    for (Contact c : contactArr) {
-                        if (c != null) {
-                            System.out.println("Name   |   Surname |   Phone   ");
-                            System.out.println(c.name + " | " + c.surname + " | " + c.phone);
-                        }
-                    }
+                    printContactList();
                     break;
                 case 3:
                     //
@@ -68,6 +56,33 @@ public class Main {
 
         return num;
 
+    }
+
+    public static void addToArray(Contact contact) {
+        if (isValidContact(contact)) {
+
+            if (currentIndex == contactArr.length) {
+                Contact[] newArr = new Contact[contactArr.length * 2];
+
+                for (int i = 0; i < contactArr.length; i++) {
+                    newArr[i] = contactArr[i];
+                }
+                contactArr = newArr;
+            }
+
+            contactArr[currentIndex] = contact;
+            currentIndex++;
+            System.out.println("Contact added.");
+        }
+    }
+
+    public static void printContactList(){
+        for (Contact c : contactArr) {
+            if (c != null) {
+                System.out.println("Name   |   Surname |   Phone   ");
+                System.out.println(c.name + " | " + c.surname + " | " + c.phone);
+            }
+        }
     }
 
     public static Contact addContact() {
