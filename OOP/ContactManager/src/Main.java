@@ -20,7 +20,8 @@ public class Main {
                     printContactList();
                     break;
                 case 3:
-                    //
+                    String query = getQuery();
+                    search(query);
                     break;
                 case 4:
                     //
@@ -58,33 +59,6 @@ public class Main {
 
     }
 
-    public static void addToArray(Contact contact) {
-        if (isValidContact(contact)) {
-
-            if (currentIndex == contactArr.length) {
-                Contact[] newArr = new Contact[contactArr.length * 2];
-
-                for (int i = 0; i < contactArr.length; i++) {
-                    newArr[i] = contactArr[i];
-                }
-                contactArr = newArr;
-            }
-
-            contactArr[currentIndex] = contact;
-            currentIndex++;
-            System.out.println("Contact added.");
-        }
-    }
-
-    public static void printContactList(){
-        for (Contact c : contactArr) {
-            if (c != null) {
-                System.out.println("Name   |   Surname |   Phone   ");
-                System.out.println(c.name + " | " + c.surname + " | " + c.phone);
-            }
-        }
-    }
-
     public static Contact addContact() {
         Scanner scanner = new Scanner(System.in);
 
@@ -103,6 +77,24 @@ public class Main {
         contact.phone = phone;
 
         return contact;
+    }
+
+    public static void addToArray(Contact contact) {
+        if (isValidContact(contact)) {
+
+            if (currentIndex == contactArr.length) {
+                Contact[] newArr = new Contact[contactArr.length * 2];
+
+                for (int i = 0; i < contactArr.length; i++) {
+                    newArr[i] = contactArr[i];
+                }
+                contactArr = newArr;
+            }
+
+            contactArr[currentIndex] = contact;
+            currentIndex++;
+            System.out.println("Contact added.");
+        }
     }
 
     public static boolean isValidContact(Contact contact) {
@@ -134,4 +126,32 @@ public class Main {
         }
         return true;
     }
+
+    public static void printContactList() {
+        for (Contact c : contactArr) {
+            if (c != null) {
+                System.out.println("Name   |   Surname |   Phone   ");
+                System.out.println(c.name + " | " + c.surname + " | " + c.phone);
+            }
+        }
+    }
+
+    public static String getQuery() {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter query: ");
+
+        return scanner.next();
+    }
+
+    public static void search(String query) {
+        for (Contact contact : contactArr) {
+            if (contact != null) {
+                if (contact.name.contains(query) || contact.surname.contains(query) || contact.phone.contains(query)) {
+                    System.out.println(contact.name + " | " + contact.surname + " | " + contact.phone);
+                }
+            }
+        }
+    }
+
 }
