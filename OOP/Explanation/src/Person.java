@@ -3,7 +3,8 @@ public class Person {
     String surname;
 
     public Person() {
-        System.out.println("Person Constructor!");
+       name = "Mazgi";
+       surname = "Mazgiyev";
     }
 
     public Person(String personName) {
