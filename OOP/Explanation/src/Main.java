@@ -1,11 +1,13 @@
 public class Main {
 
     public static void main(String[] args){
-        User user1 = new User();
-        User user2 = new User();
 
-        System.out.println(user1);
-        System.out.println(user2);
+        Person person1 = new Person();
+        person1.name = "Alish";
+        person1.surname = "Aliyev";
+
+        System.out.println(person1.name + " " + person1.surname);
+
     }
 
 }
