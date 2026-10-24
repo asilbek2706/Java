@@ -6,8 +6,13 @@ public class Main {
         person1.name = "Alish";
         person1.surname = "Aliyev";
 
-        System.out.println(person1.name + " " + person1.surname);
+        Person person2 = new Person("Vali");
 
+        Person person3 = new Person("Asilbek", "Karomatov");
+
+
+        System.out.println(person1.name + " " + person1.surname);
+        System.out.println(person2.name);
     }
 
 }
