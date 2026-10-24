@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
@@ -53,9 +54,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Choose Menu: ");
-        int num = scanner.nextInt();
 
-        return num;
+        return scanner.nextInt();
 
     }
 
@@ -80,21 +80,35 @@ public class Main {
     }
 
     public static void addToArray(Contact contact) {
-        if (isValidContact(contact)) {
-
-            if (currentIndex == contactArr.length) {
-                Contact[] newArr = new Contact[contactArr.length * 2];
-
-                for (int i = 0; i < contactArr.length; i++) {
-                    newArr[i] = contactArr[i];
-                }
-                contactArr = newArr;
-            }
-
-            contactArr[currentIndex] = contact;
-            currentIndex++;
-            System.out.println("Contact added.");
+        if (!isValidContact(contact)) {
+            return;
         }
+
+        if (isPhoneExist(contact.phone)) {
+            System.out.println("Phone number exists, Mazgi!");
+            return;
+        }
+
+        if (currentIndex == contactArr.length) {
+            Contact[] newArr = new Contact[contactArr.length * 2];
+
+            System.arraycopy(contactArr, 0, newArr, 0, contactArr.length);
+            contactArr = newArr;
+        }
+
+        contactArr[currentIndex] = contact;
+        currentIndex++;
+        System.out.println("Contact added.");
+
+    }
+
+    public static boolean isPhoneExist(String phone) {
+        for (Contact contact : contactArr) {
+            if (contact != null && contact.phone.equals(phone)) {
+                return true;
+            }
+        }
+        return false;
     }
 
     public static boolean isValidContact(Contact contact) {
@@ -145,13 +159,18 @@ public class Main {
     }
 
     public static void search(String query) {
+        query = query.toLowerCase();
         for (Contact contact : contactArr) {
-            if (contact != null) {
-                if (contact.name.contains(query) || contact.surname.contains(query) || contact.phone.contains(query)) {
-                    System.out.println(contact.name + " | " + contact.surname + " | " + contact.phone);
-                }
+            if (contact == null) {
+                continue;
+            }
+
+            if (contact.name.toLowerCase().contains(query) || contact.surname.toLowerCase().contains(query) || contact.phone.contains(query)) {
+                System.out.println(contact.name + " | " + contact.surname + " | " + contact.phone);
+
             }
         }
+        System.out.println("Mazgi, Contact not found!");
     }
 
 }
