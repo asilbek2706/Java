@@ -1,17 +1,12 @@
 public class Person {
     String name;
     String surname;
+    String country;
 
-    public Person() {
-       name = "Mazgi";
-       surname = "Mazgiyev";
-    }
-
-    public Person(String personName) {
-        System.out.println(personName + " Constructor");
-    }
 
     public Person(String name, String surname) {
-        System.out.println(name + " " + surname + " Constructor");
+        this.name = name;
+        this.surname = surname;
+        country = "Uzbekistan";
     }
 }
