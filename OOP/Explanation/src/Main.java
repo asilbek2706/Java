@@ -2,11 +2,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Person person1 = new Person("Ali", "Aliyev");
-        person1.printDetail();
+        Person person1 = new Person();
+        //person1.name = "Asilbek";
+        person1.setName("   Asilbek   ");
+        person1.surname = "asil";
 
-        Person person2 = new Person("Vali", "Valiyev");
-        person2.printDetail();
+        person1.printDetail();
     }
 
 }

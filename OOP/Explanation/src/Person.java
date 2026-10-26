@@ -1,16 +1,17 @@
-public class Person {
-    String name;
-    String surname;
-    String country;
 
-    public Person(String name, String surname) {
-        this.name = name;
-        this.surname = surname;
-        this.country = "Uzbekistan";
+public class Person {
+    private String name;
+    String surname;
+
+    public Person() {
+
+    }
+
+    public void setName(String name){
+        this.name = name.trim().toUpperCase();
     }
 
     public void printDetail() {
-        System.out.println(this);
-        System.out.println(name + " " + surname + " " + country);
+        System.out.println(name + " " + surname);
     }
 }
