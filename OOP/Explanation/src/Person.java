@@ -3,24 +3,14 @@ public class Person {
     String surname;
     String country;
 
-    public Person() {
-        this("Asilbek", "Karomatov");
+    public Person(String name, String surname) {
+        this.name = name;
+        this.surname = surname;
         this.country = "Uzbekistan";
     }
 
-
-    public Person(String name, String surname) {
-//        this();
-        this.name = name;
-        this.surname = surname;
-    }
-
     public void printDetail() {
+        System.out.println(this);
         System.out.println(name + " " + surname + " " + country);
-//        sayHello();
-    }
-
-    public void sayHello() {
-        System.out.println("Hello");
     }
 }
