@@ -1,3 +1,5 @@
+package contact;
+
 import java.util.Scanner;
 
 public class ContactManager {
@@ -38,10 +40,10 @@ public class ContactManager {
     public void menu() {
 
         System.out.println("--- Menu ---");
-        System.out.println("1 - Add Contact");
-        System.out.println("2 - Contact List");
+        System.out.println("1 - Add contact.Contact");
+        System.out.println("2 - contact.Contact List");
         System.out.println("3 - Search");
-        System.out.println("4 - Delete Contact");
+        System.out.println("4 - Delete contact.Contact");
         System.out.println("0 - EXIT");
 
     }
@@ -95,7 +97,7 @@ public class ContactManager {
 
         contactArr[currentIndex] = contact;
         currentIndex++;
-        System.out.println("Contact added.");
+        System.out.println("contact.Contact added.");
 
     }
 
@@ -167,7 +169,7 @@ public class ContactManager {
 
             }
         }
-        System.out.println("Mazgi, Contact not found!");
+        System.out.println("Mazgi, contact.Contact not found!");
     }
 
     public String deleteContact() {
@@ -181,10 +183,10 @@ public class ContactManager {
             Contact contact = contactArr[i];
             if (contact != null && contact.phone.equals(phone)) {
                 contactArr[i] = null;
-                System.out.println("Contact deleted, Mazgi!");
+                System.out.println("contact.Contact deleted, Mazgi!");
                 break;
             }
         }
-        System.out.println("Contact didn't delete, Mazgi!!!");
+        System.out.println("contact.Contact didn't delete, Mazgi!!!");
     }
 }

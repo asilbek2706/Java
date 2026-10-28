@@ -6,5 +6,6 @@
         <language minSize="69" name="Java" />
       </Languages>
     </inspection_tool>
+    <inspection_tool class="WriteOnlyObject" enabled="false" level="WARNING" enabled_by_default="false" />
   </profile>
 </component>
