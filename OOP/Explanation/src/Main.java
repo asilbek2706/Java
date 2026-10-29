@@ -1,3 +1,4 @@
+import person.Manager;
 import person.Person;
 import test.TestCase;
 
@@ -8,8 +9,8 @@ public class Main {
         student.age = 20;
         student.printDetail();
 
-        TestCase testCase = new TestCase();
-        testCase.startTest();
+        Manager test = new Manager();
+        test.test();
 
     }
 }
