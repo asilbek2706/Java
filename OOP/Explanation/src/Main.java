@@ -1,17 +1,15 @@
-import movie.Movie;
-import other.Music;
-
-import java.util.Scanner;
+import person.Person;
+import test.TestCase;
 
 public class Main {
-
     public static void main(String[] args) {
+        Student student = new Student();
+        student.name = "Asilbek";
+        student.age = 20;
+        student.printDetail();
 
-        Scanner scanner = new Scanner(System.in);
-
-        Movie movie = new Movie();
-        Music music1 = new Music("Hello");
+        TestCase testCase = new TestCase();
+        testCase.startTest();
 
     }
-
 }
