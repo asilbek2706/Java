@@ -2,6 +2,8 @@ package contact;
 
 import java.util.Scanner;
 
+import static util.ScannerUtil.getMenuNumber;
+
 public class ContactManager {
     Contact[] contactArr = new Contact[10];
     int currentIndex = 0;
@@ -45,16 +47,6 @@ public class ContactManager {
         System.out.println("3 - Search");
         System.out.println("4 - Delete contact.Contact");
         System.out.println("0 - EXIT");
-
-    }
-
-    public int getMenuNumber() {
-
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Choose Menu: ");
-
-        return scanner.nextInt();
 
     }
 
