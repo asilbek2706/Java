@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args){
-        int n = 5;
-        Integer m = 5;
+        Person person = new Person();
+        person.name = "Asilbek";
+
+
     }
 }
