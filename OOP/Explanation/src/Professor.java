@@ -1,12 +1,11 @@
 public class Professor extends Person {
 
-    public String subjectName;
-
-    public String getSubjectName() {
-        return subjectName;
+    public Professor() {
+        super("Vali");
+        System.out.println("Professor");
     }
 
-    public void setSubjectName(String subjectName) {
-        this.subjectName = subjectName;
+    public void startTeaching() {
+        System.out.println("Let's start lesson!!!");
     }
 }
