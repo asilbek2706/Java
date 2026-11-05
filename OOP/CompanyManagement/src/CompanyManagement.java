@@ -10,12 +10,12 @@ public class CompanyManagement {
     private int temporarytIndex = 0;
 
     public PermanentEmployee addPermanentEmployee(String name, String surname, Double salary, String work, String room) {
-        PermanentEmployee employee = new PermanentEmployee();
-        employee.setName(name);
-        employee.setSurname(surname);
-        employee.setRoom(room);
-        employee.setSalary(salary);
-        employee.setWork(work);
+        PermanentEmployee employee = new PermanentEmployee(name, surname, salary, work, room);
+//        employee.setName(name);
+//        employee.setSurname(surname);
+//        employee.setRoom(room);
+//        employee.setSalary(salary);
+//        employee.setWork(work);
 
         permanentEmployeeArray[permanentIndex++] = employee;
 
@@ -23,12 +23,12 @@ public class CompanyManagement {
     }
 
     public SeasonalEmployee addSeasonalEmployee(String name, String surname, Double salary, String work, String season) {
-        SeasonalEmployee employee = new SeasonalEmployee();
-        employee.setName(name);
-        employee.setSurname(surname);
-        employee.setSalary(salary);
-        employee.setWork(work);
-        employee.setSeason(season);
+        SeasonalEmployee employee = new SeasonalEmployee(name, surname, salary, work, season);
+//        employee.setName(name);
+//        employee.setSurname(surname);
+//        employee.setSalary(salary);
+//        employee.setWork(work);
+//        employee.setSeason(season);
 
         seasonalEmployeeArray[seasonaltIndex] = employee;
 
@@ -36,12 +36,12 @@ public class CompanyManagement {
     }
 
     public TemporaryEmployee addTemporaryEmployee(String name, String surname, Double salary, String work, Integer workingHours) {
-        TemporaryEmployee employee = new TemporaryEmployee();
-        employee.setName(name);
-        employee.setSurname(surname);
-        employee.setSalary(salary);
-        employee.setWork(work);
-        employee.setWorkingHours(workingHours);
+        TemporaryEmployee employee = new TemporaryEmployee(name, surname, salary, work, workingHours);
+//        employee.setName(name);
+//        employee.setSurname(surname);
+//        employee.setSalary(salary);
+//        employee.setWork(work);
+//        employee.setWorkingHours(workingHours);
 
         temporaryEmployeeArray[temporarytIndex] = employee;
 

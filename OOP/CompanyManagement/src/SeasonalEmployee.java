@@ -1,40 +1,10 @@
-public class SeasonalEmployee {
-    private String name;
-    private String surname;
-    private Double salary;
-    private String work;
+public class SeasonalEmployee extends Employee {
+
     private String season;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getSurname() {
-        return surname;
-    }
-
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
-
-    public Double getSalary() {
-        return salary;
-    }
-
-    public void setSalary(Double salary) {
-        this.salary = salary;
-    }
-
-    public String getWork() {
-        return work;
-    }
-
-    public void setWork(String work) {
-        this.work = work;
+    public SeasonalEmployee(String name, String surname, Double salary, String work, String season) {
+        super(name, surname, salary, work);
+        this.season = season;
     }
 
     public String getSeason() {
