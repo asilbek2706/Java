@@ -7,6 +7,11 @@ public class PermanentEmployee extends Employee {
         this.room = room;
     }
 
+    @Override
+    public String getDetail() {
+        return super.getDetail() + ", " + room;
+    }
+
     public String getRoom() {
         return room;
     }

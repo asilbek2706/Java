@@ -7,6 +7,11 @@ public class SeasonalEmployee extends Employee {
         this.season = season;
     }
 
+    @Override
+    public String getDetail() {
+        return super.getDetail() + ", " + season;
+    }
+
     public String getSeason() {
         return season;
     }
@@ -14,4 +19,5 @@ public class SeasonalEmployee extends Employee {
     public void setSeason(String season) {
         this.season = season;
     }
+
 }

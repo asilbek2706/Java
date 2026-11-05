@@ -12,6 +12,10 @@ public class Employee {
         this.work = work;
     }
 
+    public String getDetail() {
+        return name + ", " + surname + ", " + salary + ", " + work;
+    }
+
     public String getName() {
         return name;
     }
