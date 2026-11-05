@@ -3,7 +3,13 @@ public class CompanyManagement {
     private PermanentEmployee[] permanentEmployeeArray = new PermanentEmployee[10];
     private int permanentIndex = 0;
 
-    public PermanentEmployee addPermanentEmployee(String name, String surname, Double salary, String work, String room){
+    private SeasonalEmployee[] seasonalEmployeeArray = new SeasonalEmployee[10];
+    private int seasonaltIndex = 0;
+
+    private TemporaryEmployee[] temporaryEmployeeArray = new TemporaryEmployee[10];
+    private int temporarytIndex = 0;
+
+    public PermanentEmployee addPermanentEmployee(String name, String surname, Double salary, String work, String room) {
         PermanentEmployee employee = new PermanentEmployee();
         employee.setName(name);
         employee.setSurname(surname);
@@ -12,6 +18,32 @@ public class CompanyManagement {
         employee.setWork(work);
 
         permanentEmployeeArray[permanentIndex++] = employee;
+
+        return employee;
+    }
+
+    public SeasonalEmployee addSeasonalEmployee(String name, String surname, Double salary, String work, String season) {
+        SeasonalEmployee employee = new SeasonalEmployee();
+        employee.setName(name);
+        employee.setSurname(surname);
+        employee.setSalary(salary);
+        employee.setWork(work);
+        employee.setSeason(season);
+
+        seasonalEmployeeArray[seasonaltIndex] = employee;
+
+        return employee;
+    }
+
+    public TemporaryEmployee addTemporaryEmployee(String name, String surname, Double salary, String work, Integer workingHours) {
+        TemporaryEmployee employee = new TemporaryEmployee();
+        employee.setName(name);
+        employee.setSurname(surname);
+        employee.setSalary(salary);
+        employee.setWork(work);
+        employee.setWorkingHours(workingHours);
+
+        temporaryEmployeeArray[temporarytIndex] = employee;
 
         return employee;
     }
