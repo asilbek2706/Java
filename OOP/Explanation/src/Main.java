@@ -1,8 +1,9 @@
+import java.time.LocalDateTime;
+
 public class Main {
     public static void main(String[] args) {
-
-        Person person = new Person("Asilbek");
-//        Professor professor = new Professor("Vali");
-
+        long l = System.currentTimeMillis();
+        System.out.println(l);
+        System.out.println(LocalDateTime.now());
     }
 }
