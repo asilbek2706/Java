@@ -2,6 +2,9 @@ public class TemporaryEmployee extends Employee {
 
     private Integer workingHours;
 
+    public TemporaryEmployee() {
+    }
+
     public TemporaryEmployee(String name, String surname, Double salary, String work, Integer workingHours) {
         super(name, surname, salary, work);
         this.workingHours = workingHours;
