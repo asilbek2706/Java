@@ -15,6 +15,22 @@ public class PermanentEmployee extends Employee {
         return super.getDetail() + ", " + room;
     }
 
+    public String getEmployeeType(){
+        return "Permanent";
+    }
+
+    public Double getOneTimeBonus(){
+        return getSalary() * 0.5;
+    }
+
+    public Double calculatePensionTax(){
+        return getSalary() * 0.075;
+    }
+
+    public Double calculateInsuranceTax(){
+        return getSalary() * 0.01;
+    }
+
     public String getRoom() {
         return room;
     }

@@ -19,6 +19,26 @@ public class Employee {
         return name + ", " + surname + ", " + salary + ", " + work;
     }
 
+    public String getEmployeeType(){
+        return "Employee";
+    }
+
+    public Double calculatePensionTax(){
+        return 0.0;
+    }
+
+    public Double getOneTimeBonus(){
+        return 0.0;
+    }
+
+    public Double calculateInsuranceTax(){
+        return 0.0;
+    }
+
+    public Double calculateSalaryAfterAllTaxes() {
+        return salary + getOneTimeBonus() - calculatePensionTax() - calculateInsuranceTax();
+    }
+
     public String getName() {
         return name;
     }

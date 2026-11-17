@@ -24,6 +24,13 @@ public class CompanyManagement {
         return employee;
     }
 
+    public PartnerEmployee addPartnerEmployee(String name, String surname, Double salary, String work, String companyName) {
+        PartnerEmployee employee = new PartnerEmployee(name, surname, salary, work, companyName);
+
+        employeeArray[arrayIndex++] = employee;
+        return employee;
+    }
+
     public void printAllEmployeeDetail() {
 
         for (Employee employee : employeeArray) {
@@ -32,5 +39,13 @@ public class CompanyManagement {
             }
         }
 
+    }
+
+    public void showAllSalaryAfterAllTaxes() {
+        for (Employee employee : employeeArray) {
+            if (employee != null) {
+                System.out.println(employee.getName() + " " + employee.calculateSalaryAfterAllTaxes());
+            }
+        }
     }
 }

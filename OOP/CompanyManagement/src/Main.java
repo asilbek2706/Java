@@ -11,6 +11,9 @@ public class Main {
 
         companyManager.addTemporaryEmployee("Aziz", "Azizov", 100.0, "Wifi tuzatovchi", 12);
 
+        companyManager.addPartnerEmployee("Alibek", "Aliyev", 50.0, "Changchi", "Changchung");
+
         companyManager.printAllEmployeeDetail();
+        companyManager.showAllSalaryAfterAllTaxes();
     }
 }
