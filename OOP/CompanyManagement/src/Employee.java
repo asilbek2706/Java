@@ -19,9 +19,7 @@ public abstract class Employee {
         return name + ", " + surname + ", " + salary + ", " + work;
     }
 
-    public String getEmployeeType(){
-        return "Employee";
-    }
+    public abstract String getEmployeeType();
 
     public abstract Double calculatePensionTax();
 

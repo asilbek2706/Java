@@ -8,8 +8,13 @@ public class EarEmployee extends Employee {
     }
 
     @Override
+    public String getEmployeeType() {
+        return "Ear";
+    }
+
+    @Override
     public Double calculatePensionTax() {
-        return 1.0;
+        return getSalary() * 0.01;
     }
 
     @Override
@@ -19,7 +24,7 @@ public class EarEmployee extends Employee {
 
     @Override
     public Double calculateInsuranceTax() {
-        return 0.0;
+        return getSalary() * 0.01;
     }
 
 

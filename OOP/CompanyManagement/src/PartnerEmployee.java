@@ -9,6 +9,11 @@ public class PartnerEmployee extends Employee {
         this.companyName = companyName;
     }
 
+    @Override
+    public String getEmployeeType() {
+        return "Partner";
+    }
+
     public Double getOneTimeBonus(){
         return getSalary() * 0.75;
     }

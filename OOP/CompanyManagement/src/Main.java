@@ -14,7 +14,8 @@ public class Main {
         companyManager.addPartnerEmployee("Alibek", "Aliyev", 50.0, "Changchi", "Changchung");
         companyManager.addEarEmployee("Quloq", "Quloqov", 80.0, "Quloq");
 
-        companyManager.printAllEmployeeDetail();
-        companyManager.showAllSalaryAfterAllTaxes();
+//        companyManager.printAllEmployeeDetail();
+        companyManager.printAllEmployeeType();
+//        companyManager.showAllSalaryAfterAllTaxes();
     }
 }

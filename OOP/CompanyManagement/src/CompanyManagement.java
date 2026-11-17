@@ -48,6 +48,14 @@ public class CompanyManagement {
 
     }
 
+    public void  printAllEmployeeType() {
+        for (Employee employee : employeeArray) {
+            if (employee != null) {
+                System.out.println(employee.getName()  + " " +  employee.getSurname() + " " + employee.getEmployeeType());
+            }
+        }
+    }
+
     public void showAllSalaryAfterAllTaxes() {
         for (Employee employee : employeeArray) {
             if (employee != null) {
