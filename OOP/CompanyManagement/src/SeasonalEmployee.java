@@ -16,6 +16,26 @@ public class SeasonalEmployee extends Employee {
         return super.getDetail() + ", " + season;
     }
 
+    @Override
+    public String getEmployeeType() {
+        return "Seasonal";
+    }
+
+    @Override
+    public Double calculatePensionTax() {
+        return getSalary()  * 0.065;
+    }
+
+    @Override
+    public Double getOneTimeBonus() {
+        return super.getSalary() * 0.2;
+    }
+
+    @Override
+    public Double calculateInsuranceTax() {
+        return getSalary() * 0.005;
+    }
+
     public String getSeason() {
         return season;
     }

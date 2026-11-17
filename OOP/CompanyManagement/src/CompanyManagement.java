@@ -31,6 +31,13 @@ public class CompanyManagement {
         return employee;
     }
 
+    public EarEmployee addEarEmployee(String name, String surname, Double salary, String work) {
+        EarEmployee employee = new EarEmployee(name, surname, salary, work);
+
+        employeeArray[arrayIndex++] = employee;
+        return employee;
+    }
+
     public void printAllEmployeeDetail() {
 
         for (Employee employee : employeeArray) {

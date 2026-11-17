@@ -13,6 +13,11 @@ public class PartnerEmployee extends Employee {
         return getSalary() * 0.75;
     }
 
+    @Override
+    public Double calculateInsuranceTax() {
+        return 0.0;
+    }
+
     public Double calculatePensionTax(){
         return getSalary() * 0.05;
     }

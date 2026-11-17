@@ -15,6 +15,21 @@ public class TemporaryEmployee extends Employee {
         return super.getDetail() + ", " + workingHours;
     }
 
+    @Override
+    public Double calculatePensionTax() {
+        return 0.0;
+    }
+
+    @Override
+    public Double getOneTimeBonus() {
+        return 0.0;
+    }
+
+    @Override
+    public Double calculateInsuranceTax() {
+        return 0.0;
+    }
+
     public Integer getWorkingHours() {
         return workingHours;
     }
